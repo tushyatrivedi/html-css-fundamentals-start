@@ -4,14 +4,27 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <style>
+      h1::first-letter {
+        font-size: 2em;
+      }
+    </style>
     <script>
       let arr = [1, 2, true, "Tushya"];
 
-      for (let i = 0; i < array.length; i++) {
-        const element = array[i];
+      for (let i = 0; i < arr.length; i++) {
+        const element = arr[i];
         console.log(element);
       }
+
+      let days = ["Mon", "Tue", "Wed"];
+
+      days.forEach(function (day, index) {
+        console.log(`Day: ${day} index: ${index}`);
+      });
     </script>
   </head>
-  <body></body>
+  <body>
+    <h1>Javascript Example</h1>
+  </body>
 </html>
